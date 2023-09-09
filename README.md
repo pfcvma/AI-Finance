@@ -8,7 +8,7 @@ Sogang University - AI Finance (Capstone Design)
 
 **[주제]**
 
-ESG 우수기업 포트폴리오 구성 및 시장 수익률과의 비교를 통한 초과수익여부 검증
+**ESG 우수기업 포트폴리오 구성 및 시장 수익률과의 비교를 통한 초과수익여부 검증**
 <br>
 ([SWIC - ESG Active Fund Project](https://github.com/pfcvma/PythonStockTool) 및 [Financial Big Data Analysis - ESG Correlation Project](https://github.com/pfcvma/esg_return_correlation)의 심화연구)
 
