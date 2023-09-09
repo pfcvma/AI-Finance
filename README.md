@@ -6,13 +6,15 @@ Sogang University - AI Finance (Capstone Design)
 
 <br>
 
-**[주제]**
+## 주제
 
 **ESG 우수기업 포트폴리오 구성 및 시장 수익률과의 비교를 통한 초과수익여부 검증**
 <br>
 ([SWIC - ESG Active Fund Project](https://github.com/pfcvma/PythonStockTool) 및 [Financial Big Data Analysis - ESG Correlation Project](https://github.com/pfcvma/esg_return_correlation)의 심화연구)
 
-**[목차]**
+<br>
+
+## 목차
 
 1. ESG 투자란?
 2. ESG 우수 기업의 수익성
@@ -134,6 +136,8 @@ Sogang University - AI Finance (Capstone Design)
         - 위 코드는 `backtrader` 라이브러리를 사용하여 주식 포트폴리오의 백테스팅을 수행.
         - `MLStrategy` 클래스에서 머신러닝 모델을 사용하여 포트폴리오 비중을 결정하는 로직을 구현
     
+<br>
+
     ## 피드백
     
     - 한국 vs 해외 (유럽 등), 한국 esg 등급과 외국 esg 등급 우수 이들의 수익률은 어떤지도 비교
