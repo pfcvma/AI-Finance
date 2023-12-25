@@ -150,7 +150,6 @@ Sogang University - AI Finance (Capstone Design)
     4. 다중회귀분석
         - 전체 표본 및 섹터별 다중회귀분석
         - 전체 및 섹터별 ESG, E, S, G score와 Return의 관계 파악
-        - R2 = 0.125
     5. Logistic Regression
         - G(지배구조 점수)가 높을수록 양의 평균 return이 될 확률이 낮아짐: G Score – Return plotting에서 고득점일수록 음수 return이 많음
         - log_AV(시가총액 로그)가 높을수록 양의 평균 return이 될 확률이 높아짐
