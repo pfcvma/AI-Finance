@@ -146,7 +146,7 @@ Sogang University - AI Finance (Capstone Design)
         - 종속변수 : ret
         - Crawled ESG Index data of 500+ Korean companies, and relevant corporate return data for 2 years (except for COVID-19) using `yfinance` module
     3. 기초통계량 분석, Scatter Plotting
-        - 시가총액 대비 Return에서 E, S, G의 분포
+        - 시가총액 대비 Return에서 ESG, E, S, G의 분포 확인
     4. 다중회귀분석
         - 전체 표본 및 섹터별 다중회귀분석
         - 전체 및 섹터별 ESG, E, S, G score와 Return의 관계 파악
@@ -154,10 +154,10 @@ Sogang University - AI Finance (Capstone Design)
         - G(지배구조 점수)가 높을수록 양의 평균 return이 될 확률이 낮아짐: G Score – Return plotting에서 고득점일수록 음수 return이 많음
         - log_AV(시가총액 로그)가 높을수록 양의 평균 return이 될 확률이 높아짐
     6. PCA, TSNE, K-Means Clustering
-        - Model 1: 기업 Sector 포함. Sector 더미변수 + AV_log + E + S + G
-        - Model 2: 기업 Sector 제외. AV_log + E + S + G
+        - Model 1: Sector 더미변수 포함. Sector 더미변수 + AV_log + E + S + G
+        - Model 2: Sector 더미변수 제외. AV_log + E + S + G
         - Elbow Score, Biplot of Eigenvector 확인
-        - Sector보다 E, S, G에 의해 Cluster가 나누어지는 경향이 더 강함, Model 2에서는 Sector 더미변수를 제외한 Clustering 분석 수행
+        - Sector보다 E, S, G에 의해 Cluster가 나누어지는 경향이 더 강함
 
 7. 결론
     1. Sector 변수
