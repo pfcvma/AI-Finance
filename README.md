@@ -149,7 +149,7 @@ Sogang University - AI Finance (Capstone Design)
         - 시가총액 대비 Return에서 E, S, G의 분포
     4. 다중회귀분석
         - 전체 표본 및 섹터별 다중회귀분석
-        - 전체 및 섹터별 ESG, E, S, G score과 Return의 관계 파악
+        - 전체 및 섹터별 ESG, E, S, G score와 Return의 관계 파악
         - R2 = 0.125
     5. Logistic Regression
         - G(지배구조 점수)가 높을수록 양의 평균 return이 될 확률이 낮아짐: G Score – Return plotting에서 고득점일수록 음수 return이 많음
@@ -167,6 +167,7 @@ Sogang University - AI Finance (Capstone Design)
         - 분석 기간 내 유의미한 관련성이 확인되지 않음
     3. ESG와 시가총액
         - ESG 등급이 높은 그룹 = 시가총액이 높은 기업들이 포함된 그룹
+    > 결론: ESG 우수기업 포트폴리오의 성공적인 초과수익률 달성에 영향을 미친 것은 ESG Index가 아니라, ESG Score가 우수한 기업이 높은 시가총액(=기업 규모), 즉 기업이 ESG라는 비재무적 요소에 투자할 만큼의 여력이 충분했기 때문에 수익률도 높고 ESG Score 또한 높았을 것이라는 결론 도출.
 
 <br>
 
