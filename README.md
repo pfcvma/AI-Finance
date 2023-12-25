@@ -144,7 +144,7 @@ Sogang University - AI Finance (Capstone Design)
     2. 데이터 전처리 수행
         - 독립변수 : 시가총액(AV_log, 로그 변환), ESG, 섹터 더미변수(Sector)
         - 종속변수 : ret
-        - Crawled ESG Index data of 500+ Korean companies, and relevant corporate return data using `yfinance` module
+        - Crawled ESG Index data of 500+ Korean companies, and relevant corporate return data for 2 years using `yfinance` module
     3. 기초통계량 분석, Scatter Plotting
         - 시가총액 대비 Return에서 E, S, G의 분포
     4. 다중회귀분석
