@@ -136,6 +136,37 @@ Sogang University - AI Finance (Capstone Design)
         - 위 코드는 `backtrader` 라이브러리를 사용하여 주식 포트폴리오의 백테스팅을 수행.
         - `MLStrategy` 클래스에서 머신러닝 모델을 사용하여 포트폴리오 비중을 결정하는 로직을 구현
     
+6. 추가연구
+    1. ESG Index 자체가 유의미했는가?
+        • 데이터 2022년 1년간 분석 한계: ESG 누적 데이터 수집 어려움
+        • ESG Index 자체가 유의미했는가?
+        • 국내 데이터 한정, 해외는? : 시장 환경에 따른 차이
+    2. 데이터 전처리 수행
+        • 독립변수 : 시가총액(AV_log, 로그 변환), ESG, 섹터 더미변수(Sector)
+        • 종속변수 : ret
+    3. 기초통계량 분석, Scatter Plotting
+        • 시가총액 대비 Return에서 E, S, G의 분포
+    4. 다중회귀분석
+        • 전체 표본 및 섹터별 다중회귀분석
+        • 전체 및 섹터별 ESG, E, S, G score과 Return의 관계 파악
+        • R2 = 0.125
+    5. Logistic Regression
+        • G(지배구조 점수)가 높을수록 양의 평균 return이 될 확률이 낮아짐: G Score – Return plotting에서 고득점일수록 음수 return이 많음
+        • log_AV(시가총액 로그)가 높을수록 양의 평균 return이 될 확률이 높아짐
+    6. PCA, TSNE, K-Means Clustering
+        • Model 1: 기업 Sector 포함. Sector 더미변수 + AV_log + E + S + G
+        • Model 2: 기업 Sector 제외. AV_log + E + S + G
+        • Elbow Score, Biplot of Eigenvector 확인
+        • Sector보다 E, S, G에 의해 Cluster가 나누어지는 경향이 더 강함, Model 2에서는 Sector 더미변수를 제외한 Clustering 분석 수행
+
+7. 결론
+    1. Sector 변수
+        • ESG와 시가총액이 수익률에 미치는 영향과는 큰 관련성이 없음
+    2. ESG와 수익률
+        • 2022년 기준, 유의미한 관련성이 확인되지 않음
+    3. ESG와 시가총액
+        • ESG 등급이 높은 그룹 = 시가총액이 높은 기업들이 포함된 그룹
+
 <br>
 
     ## 피드백
