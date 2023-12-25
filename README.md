@@ -164,7 +164,7 @@ Sogang University - AI Finance (Capstone Design)
     1. Sector 변수
         - ESG와 시가총액이 수익률에 미치는 영향과는 큰 관련성이 없음
     2. ESG와 수익률
-        - 2022년 기준, 유의미한 관련성이 확인되지 않음
+        - 분석 기간 내 유의미한 관련성이 확인되지 않음
     3. ESG와 시가총액
         - ESG 등급이 높은 그룹 = 시가총액이 높은 기업들이 포함된 그룹
 
