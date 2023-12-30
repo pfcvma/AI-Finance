@@ -146,7 +146,7 @@ Sogang University - AI Finance (Capstone Design)
         - 종속변수 : ret
         - Crawled ESG Index data of 500+ Korean companies, and relevant corporate return data for 2 years (except for COVID-19) using `yfinance` module
     3. 기초통계량 분석, Scatter Plotting
-        - 시가총액 대비 Return에서 ESG, E, S, G의 분포 확인
+        - 시각화를 통해 시가총액 대비 Return에서 ESG, E, S, G의 분포 확인
     4. 다중회귀분석
         - 전체 표본 및 섹터별 다중회귀분석
         - 전체 및 섹터별 ESG, E, S, G score와 Return의 관계 파악
